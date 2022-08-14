@@ -1,0 +1,37 @@
+.footer-add-container {
+    margin-right: 70px;
+}
+
+.footer-icon-list {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.footer-icon-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    transition: fill var(--transition), background-color var(--transition);
+
+    &:hover,
+    &:focus {
+    background-color: var(--acsent-logo-color);
+}
+}
+
+.footer-icon {
+    fill: var(--text-color-button-main);
+    .footer-icon-link:hover &,
+    .footer-icon-link:focus & {
+    fill: var(--text-logo-footer);
+}
+}
+
+
+
+

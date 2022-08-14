@@ -1,0 +1,83 @@
+.work-process-title {
+    visibility: hidden;
+}
+ .process-list-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--headlines-color);
+ }
+
+ .process-text {
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: var(--primary-text-color);
+ }
+ 
+
+.work-process-title {
+    position: absolute; 
+    width: 1px; 
+    height: 1px; 
+    margin: -1px; 
+    border: 0; 
+    padding: 0; 
+    white-space: nowrap; 
+    clip-path: inset(100%); 
+    clip: rect(0 0 0 0); 
+    overflow: hidden;
+}
+
+
+.work-process-div {
+    display: flex;
+    
+}
+
+.work-process-list {
+    display: flex;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F4FA;;
+    height: 120px;
+    margin-bottom: 30px;
+}
+
+
+
+.process-list-title {
+    margin-bottom: 10px;
+}
+
+
+
+.process-list:not(:last-child) {
+margin-right: 30px;
+}
+
+
+.whatwedo-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--headlines-color);
+    margin-bottom: 50px;
+    }
+    
+
+
+.work-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+
+}

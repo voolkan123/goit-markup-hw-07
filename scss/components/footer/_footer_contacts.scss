@@ -1,0 +1,72 @@
+.footer-contacts {
+    margin-top: 20px;
+}
+
+
+ .footer-contacts .geo {
+font-style: normal;
+    font-weight: 400;
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}
+
+.footer-contacts {
+    font-style: normal;
+}
+
+.geo {
+    margin-bottom: 9px;
+    transition: color var(--transition);
+    &:hover,
+    &:focus{
+    color: var(--hover-text-color);
+}
+
+}
+
+.footer-contacts-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-contacts-li:not(:last-child) {
+    margin-bottom: 9px;
+}
+
+.email-footer {
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+margin-bottom: 9px;
+transition: color var(--transition);
+
+&:hover,
+&:focus {
+    color: var(--hover-text-color);
+}
+}
+
+.phone-number-footer {
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+margin-bottom: 9px;
+transition: color var(--transition);  
+&:hover,
+&:focus {
+    color: var(--hover-text-color);
+}
+}
+
+.footer-social-title {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        text-transform: uppercase;
+        color: var(--text-logo-footer);
+         margin-bottom: 20px;
+}

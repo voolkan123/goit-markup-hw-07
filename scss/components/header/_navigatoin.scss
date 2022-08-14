@@ -1,0 +1,47 @@
+.page-nav {
+    display: flex;
+    align-items: center;
+}
+
+.menu-list {
+    display: flex;
+    align-items: center;
+}
+
+.menu-li:not(:last-child) {
+    margin-right: 50px;
+}
+
+.menu-link {
+position: relative;
+display: block;
+text-decoration: none;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color:var(--headlines-color);
+transition: color var(--transition);
+
+&:hover,
+&:focus {
+color: var(--hover-text-color);
+}
+
+}
+
+.current::after{
+position: absolute;
+content: '';
+display: block;
+left: 0;
+bottom: 0;
+border-radius: 2px;
+width: 100%;
+height: 4px;
+background-color:var(--acsent-logo-color);
+border-radius: 2px;
+transition: background-color var(--transition);
+bottom:-33px;
+}
+
