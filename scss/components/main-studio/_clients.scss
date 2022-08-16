@@ -1,4 +1,4 @@
-.permanent-clients-title {
+.clients__title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -7,12 +7,12 @@
     color: var(--headlines-color);
     margin-bottom: 50px;
     }
-    .permanent-clients-list {
+    .clients__list {
         display: flex;
         gap: 30px;
         justify-content: center;
     }
-    .permanent-clients-link {
+    .clients__link {
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -29,12 +29,12 @@
     }
     
     }
-    .permanent-clients-icon {
+    .clients__icon {
         fill: #AFB1B8;
         transition: fill var(--transition);
 
-        .permanent-clients-link:hover &,
-        .permanent-clients-link:focus & {
+        .clients__link:hover &,
+        .clients__link:focus & {
         fill: var(--acsent-logo-color);
     }
     

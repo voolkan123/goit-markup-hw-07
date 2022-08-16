@@ -1,11 +1,11 @@
-.contacts-list {
+.contacts {
     display: flex;
     margin-left: auto;
     align-items: center;
     justify-content: center;
 }
 
-.contacts-li {
+.contacts__list {
     align-items: center;
     justify-content: center;
     &:not(:last-child) {
@@ -17,7 +17,7 @@ margin-right: 50px;
 
 
 
-.email {
+.contacts__email {
     display: flex;
     align-items: center;
 font-family: var(--primary-font);
@@ -34,7 +34,7 @@ transition: color var(--transition), fill var(--transition);
 
 }
 
-.phone-number {
+.contacts__phone-number {
     display: flex;
     align-items: center;
     font-family: var(--primary-font);
@@ -50,18 +50,18 @@ transition: color var(--transition), fill var(--transition);
  }
 }
 
-.contacts-icon {
+.contacts__icon {
     margin-right: 10px;
     fill: 
     #757575;
-    .email:hover &, 
-    .email:focus & {
+    .contacts__email:hover &, 
+    .contacts__email:focus & {
      fill: var(--acsent-logo-color);}
-     .phone-number:hover &,
-    .phone-number:focus & {
+     .contacts__phone-number:hover &,
+    .contacts__phone-number:focus & {
         fill: var(--acsent-logo-color);}    
-    .contacts-li:hover &,
-    .contacts-li:focus & {
+    .contacts__list:hover &,
+    .contacts__list:focus & {
     fill: var(--acsent-logo-color);
 }
 

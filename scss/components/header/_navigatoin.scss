@@ -1,18 +1,18 @@
-.page-nav {
+.page-header__nav {
     display: flex;
     align-items: center;
 }
 
-.menu-list {
+.menu {
     display: flex;
     align-items: center;
 }
 
-.menu-li:not(:last-child) {
+.menu__list:not(:last-child) {
     margin-right: 50px;
 }
 
-.menu-link {
+.menu__link {
 position: relative;
 display: block;
 text-decoration: none;
@@ -30,7 +30,7 @@ color: var(--hover-text-color);
 
 }
 
-.current::after{
+.menu__link_current::after{
 position: absolute;
 content: '';
 display: block;

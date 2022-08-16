@@ -1,9 +1,9 @@
-.footer-contacts {
+.address  {
     margin-top: 20px;
 }
 
 
- .footer-contacts .geo {
+ .address__item .address__geo {
 font-style: normal;
     font-weight: 400;
 font-size: 14px;
@@ -12,11 +12,15 @@ letter-spacing: 0.03em;
 color: #FFFFFF;
 }
 
-.footer-contacts {
+.address {
     font-style: normal;
 }
 
-.geo {
+.address__list {
+    display: flex;
+    flex-direction: column;
+}
+.address__geo {
     margin-bottom: 9px;
     transition: color var(--transition);
     &:hover,
@@ -26,16 +30,13 @@ color: #FFFFFF;
 
 }
 
-.footer-contacts-list {
-    display: flex;
-    flex-direction: column;
-}
 
-.footer-contacts-li:not(:last-child) {
+
+.address__item:not(:last-child) {
     margin-bottom: 9px;
 }
 
-.email-footer {
+.address__email{
 font-size: 14px;
 line-height: 1.7;
 letter-spacing: 0.03em;
@@ -49,7 +50,7 @@ transition: color var(--transition);
 }
 }
 
-.phone-number-footer {
+.address__phone-number {
 font-size: 14px;
 line-height: 1.7;
 letter-spacing: 0.03em;
@@ -62,11 +63,3 @@ transition: color var(--transition);
 }
 }
 
-.footer-social-title {
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 1.14;
-        text-transform: uppercase;
-        color: var(--text-logo-footer);
-         margin-bottom: 20px;
-}
